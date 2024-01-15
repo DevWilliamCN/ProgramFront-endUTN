@@ -1,0 +1,22 @@
+import { formatDate } from '@angular/common';
+import { Injectable } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
+@Injectable({ providedIn: 'root' })
+export class CantonesForm {
+  baseForm: FormGroup;
+  constructor(private fb: FormBuilder) {
+    this.baseForm = this.fb.group({
+      CantonId: ['', Validators.required],
+      NombreCanton: ['', Validators.required],
+      ProvinciaId: [0, Validators.required],
+      UniversalUniqueIdentifier: ['', Validators.required],
+      LastUser: ['', [Validators.required]],
+      LastUpdate: [
+        formatDate(Date.now(), 'yyyy-MM-dd', 'en'),
+        [Validators.required],
+      ],
+      distrito: [],
+    });
+  }
+}

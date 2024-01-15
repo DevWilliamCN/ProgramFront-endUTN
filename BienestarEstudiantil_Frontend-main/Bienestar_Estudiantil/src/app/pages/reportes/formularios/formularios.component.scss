@@ -1,0 +1,252 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 869px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle34 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 96px;
+  background-color: #89c1e0;
+}
+.boletaDeSolicitudDeAtencionPsi {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 34px;
+  top: 39px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle35 {
+  position: absolute;
+  left: 78px;
+  top: 357px;
+  width: 1372px;
+  height: 220px;
+  background-color: #d9d9d9;
+}
+.estimadoAEstudianteEsteServici {
+  position: absolute;
+  left: 102px;
+  top: 365px;
+  width: 1323px;
+  height: 203px;
+  flex-direction: column;
+}
+.textBlock {
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock3 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock5 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock6 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock7 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock8 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock9 {
+  margin-top: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle36 {
+  position: absolute;
+  left: 77px;
+  top: 602px;
+  width: 1373px;
+  height: 60px;
+  background-color: #89c1e0;
+}
+.rectangle37 {
+  position: absolute;
+  left: 77px;
+  top: 660px;
+  width: 1373px;
+  height: 90px;
+  outline: solid 1px #0003;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.seleccioneElCuatrimestreParaEl {
+  color: #000;
+  font-size: 15px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 124px;
+  top: 628px;
+  width: 729px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle33 {
+  position: absolute;
+  left: 124px;
+  top: 687px;
+  width: 245px;
+  height: 42px;
+  background-color: #d9d9d9;
+}
+.porFavorEscoja {
+  color: #000;
+  font-size: 14px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 140px;
+  top: 697px;
+  width: 190px;
+  height: 23px;
+  flex-direction: column;
+}
+.polygon3 {
+  position: absolute;
+  left: 326px;
+  top: 706px;
+  width: 33px;
+  height: 11px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image1 {
+  position: absolute;
+  left: 310px;
+  top: 154px;
+  width: 939px;
+  height: 153px;
+  background-image: url('/assets/image1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle38 {
+  position: absolute;
+  left: 1320px;
+  top: 763px;
+  width: 130px;
+  height: 37px;
+  border-radius: 7px;
+  background-color: #89c1e0;
+}
+.siguiente {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1351px;
+  top: 773px;
+  width: 71px;
+  height: min-content;
+  flex-direction: column;
+}
+.star1 {
+  position: absolute;
+  left: 86px;
+  top: 622px;
+  width: 22px;
+  height: 20px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

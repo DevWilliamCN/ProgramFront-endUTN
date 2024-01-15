@@ -1,0 +1,785 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.calendar {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.month {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+}
+
+.weekday {
+  padding: 5px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1531px;
+  height: 1702px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle90 {
+  position: absolute;
+  left: 1px;
+  top: 4px;
+  width: 1528px;
+  height: 1693px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle144 {
+  position: absolute;
+  left: 597px;
+  top: 915px;
+  width: 211px;
+  height: 67px;
+}
+.demo-inline-calendar-card {
+  width: 300px;
+}
+
+.MatButton{
+  margin: 4vh 0vh 0vh 180vh;
+  width: 200px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.polygon7 {
+  position: absolute;
+  left: 786px;
+  top: 938px;
+  width: 10px;
+  height: 4px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+._57utoI34 {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 663px;
+  top: 929px;
+  width: 172px;
+  height: 26px;
+  flex-direction: column;
+}
+.rectangle125 {
+  position: absolute;
+  left: 54px;
+  top: 967px;
+  width: 766px;
+  height: 209px;
+  outline: solid 3px #000;
+  outline-offset: -3px;
+  background-color: #fff;
+}
+.fundamentosDeProgramacion {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 336px;
+  top: 973px;
+  width: 275px;
+  height: 46px;
+  flex-direction: column;
+}
+.carlitosSeEncuentraUnPocoPerdi {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 67px;
+  top: 1036px;
+  width: 449px;
+  height: 23px;
+  flex-direction: column;
+}
+._2023716 {
+  color: #000;
+  font-size: 22px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 67px;
+  top: 1004px;
+  width: 433px;
+  height: 43px;
+  flex-direction: column;
+}
+.rogerRojas {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 291px;
+  top: 932px;
+  width: 142px;
+  height: 46px;
+  flex-direction: column;
+}
+.bitacoraProfesor {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 54px;
+  top: 926px;
+  width: 237px;
+  height: 46px;
+  flex-direction: column;
+}
+.line11 {
+  position: absolute;
+  left: 863px;
+  top: 607px;
+  width: 1px;
+  max-width: 100%;
+  height: 230px;
+  max-height: 100%;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle9 {
+  position: absolute;
+  left: 810px;
+  top: 1477px;
+  width: 314px;
+  height: 83px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header {
+  position: absolute;
+  left: 918px;
+  top: 1013px;
+  width: 339px;
+  height: 140px;
+  align-items: center;
+  gap: 22px;
+}
+.febrero {
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._658926472MargaritaQuintanillaV {
+  position: absolute;
+  left: 622px;
+  top: 407px;
+  width: 298px;
+  height: 91px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textBlock {
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock3 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.agendarCita {
+  position: absolute;
+  left: 826px;
+  top: 1500px;
+  width: 298px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textBlock4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock5 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle124 {
+  position: absolute;
+  left: 423px;
+  top: 1476px;
+  overflow: visible;
+  width: 80px;
+  height: 50px;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.darDeAlta {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 439px;
+  top: 1499px;
+  width: 298px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.correoEstudiantil {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 610px;
+  width: 238px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carreraEstudiantil {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 873px;
+  top: 607px;
+  width: 238px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fechaDeNacimiento {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 855px;
+  top: 767px;
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.numeroTelefonico {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 875px;
+  top: 693px;
+  width: 238px;
+  height: 34px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.direccionExacta {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 723px;
+  width: 238px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quinvaEstUtnAcCr {
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 15px;
+  top: 649px;
+  width: 238px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+._6258699836589874 {
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 882px;
+  top: 726px;
+  width: 273px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header_Button{
+  height: 7vh;
+  width: 268px;
+  margin: 0px 0px 0px 90px;
+}
+._20031010 {
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 880px;
+  top: 803px;
+  width: 129px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+._55MetrosOeste120MetrosNorteDeS {
+  color: #000;
+  font-size: 24px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 758px;
+  width: 517px;
+  height: 58px;
+  text-align: justify;
+  flex-direction: column;
+}
+.ingenieriaEnTecnologiasDeLaInf {
+  color: #000;
+  font-size: 24px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 866px;
+  top: 642px;
+  width: 506px;
+  height: 51px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rectangle80 {
+  position: absolute;
+  left: 0;
+  top: 130px;
+  width: 1526px;
+  height: 64px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #fff;
+}
+.rectangle84 {
+  position: absolute;
+  left: 5px;
+  top: 845px;
+  width: 1900px;
+  height: 63px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #89c1e0;
+}
+.rectangle86 {
+  position: absolute;
+  left: 54px;
+  top: 1247px;
+  width: 766px;
+  height: 160px;
+  outline: solid 3px #000;
+  outline-offset: -3px;
+  background-color: #fff;
+}
+
+mat-icon{
+  padding: 0px 0px 10px 6px;
+}
+.rectangle85 {
+  position: absolute;
+  left: 638px;
+  right: 20px;
+  top: 1338px;
+  width: 49px;
+  height: 44px;
+  outline: solid 3px #fff;
+  outline-offset: -3px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle83 {
+  position: absolute;
+  left: 2px;
+  top: 529px;
+  width: 1526px;
+  height: 63px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #89c1e0;
+}
+
+.imagenPersona{
+  position: absolute;
+  left: 40%;
+  top: 200px;
+  width: 20%;
+  height: 200px;
+
+}
+
+.rectangle123 {
+  position: absolute;
+  left: 0;
+  top: 1603px;
+  width: 1528px;
+  height: 99px;
+  overflow: visible;
+  background: #D9D9D9;
+}
+
+mat-raised-button{
+  width: 40vh;
+  height: 10vh;
+
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bienestarEstudiantil {
+  color: #000;
+  font-size: 20px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 677px;
+  top: 1632px;
+  width: 230px;
+  height: 23px;
+  flex-direction: column;
+}
+.version12023 {
+  color: #000;
+  font-size: 16px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 715px;
+  top: 1655px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle78 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 99px;
+  background-color: #1b3069;
+}
+.indice5 {
+  position: absolute;
+  left: 27px;
+  top: 11px;
+  width: 94px;
+  height: 72px;
+  background-image: url('/assets/indice5.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visualizacionEstudiante {
+  color: #1b3069;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 591px;
+  top: 143px;
+  width: 387px;
+  height: 39px;
+  flex-direction: column;
+}
+.recursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1084px;
+  top: 38px;
+  width: 86px;
+  height: 22px;
+  flex-direction: column;
+}
+.ayuda {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1206px;
+  top: 38px;
+  width: 66px;
+  height: 22px;
+  flex-direction: column;
+}
+.rectangle79 {
+  position: absolute;
+  left: 1307px;
+  top: 39px;
+  width: 138px;
+  height: 21px;
+  overflow: visible;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.manuelPerez {
+  color: #000;
+  font-size: 10px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1342px;
+  top: 44px;
+  width: 74px;
+  height: 12px;
+  flex-direction: column;
+}
+.polygon6 {
+  position: absolute;
+  left: 1423px;
+  top: 49px;
+  width: 13px;
+  height: 6px;
+  overflow: visible;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sillaDeRuedas {
+  position: absolute;
+  left: 1498px;
+  top: 4px;
+  width: 23.1192px;
+  height: 23.9304px;
+  overflow: visible;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image21 {
+  position: absolute;
+  left: 1475px;
+  top: 1039px;
+  width: 49px;
+  height: 42px;
+  background-image: url('/assets/image21.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comentarios {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 54px;
+  top: 1201px;
+  width: 1820px;
+  height: 46px;
+  flex-direction: column;
+}
+
+
+#example-card {
+  max-width: 500px;
+}
+mat-form-field{
+  display: block;
+  margin: 5px;
+  }
+  #titulo{
+  text-align: center;
+  margin:25px;
+  font-size: 2em;
+  color: white
+  }
+  #button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Opcional: Agrega margen superior si deseas */
+  }
+  
+  #button-container button {
+    margin: 0 10px; /* Espaciado horizontal entre los botones */
+  }
+  #center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vh; /* Centra verticalmente en la pantalla */
+  }
+  
+  #example-card {
+    width: 450px; /* Ajusta el ancho de la tarjeta según tus necesidades */
+  }

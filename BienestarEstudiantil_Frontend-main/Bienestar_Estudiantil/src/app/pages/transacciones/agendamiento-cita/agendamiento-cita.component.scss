@@ -1,0 +1,377 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 994px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.header {
+  position: absolute;
+  left: 89px;
+  top: 271px;
+  width: 339px;
+  height: 290px;
+  align-items: center;
+}
+.febrero {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2023 {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 484px;
+  top: 275px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.title {
+  color: #717370;
+  font-size: 15px;
+  line-height: 21.2296px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 1.9903px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 254px;
+  top: 705px;
+  width: 192px;
+  height: 24px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.timeInput {
+  position: absolute;
+  left: 219px;
+  top: 735px;
+  width: 303px;
+  height: 86px;
+  margin: 30px 0px 0px 10px;
+}
+.separator {
+  color: #202124;
+  font-size: 74.3035px;
+  line-height: 84.9183px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 5px;
+  height: 69px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.line2 {
+  opacity: 0.5;
+  transform-origin: bottom left;
+  position: absolute;
+  left: -15px;
+  top: 692px;
+  width: 675.003px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(1, -0.003, 0.003, 1, 0, 0);
+}
+.frame12 {
+  position: absolute;
+  left: 814px;
+  top: 432px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.informacionRelevante {
+  color: #000;
+  font-size: 20px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 797px;
+  top: 308px;
+  width: 233px;
+  height: 18px;
+  flex-direction: column;
+}
+.asignarCita {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1045px;
+  top: 686px;
+  width: 130px;
+  height: 26px;
+  flex-direction: column;
+}
+.line6 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 659px;
+  top: 216px;
+  width: 694.0008px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(0.0015, 1, -1, 0.0015, 0, 0);
+}
+.line7 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: -9px;
+  top: 216px;
+  width: 668.0001px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.line8 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: -9px;
+  top: 216px;
+  width: 1552.0002px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #000;
+  margin-bottom: -1px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.bitacoraDeCurso {
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 688px;
+  top: 7px;
+  width: 274px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle60 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 96px;
+  background-color: #1b3069;
+}
+.indice3 {
+  position: absolute;
+  left: 30px;
+  top: 11px;
+  width: 94px;
+  height: 73px;
+  background-image: url('/assets/indice3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agendamientoDeCitas {
+  color: #1b3069;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 617px;
+  top: 146px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle50 {
+  position: absolute;
+  left: 0;
+  top: 894px;
+  width: 1528px;
+  height: 100px;
+  background-color: #d9d9d9;
+}
+.recursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1102px;
+  top: 41px;
+  width: 86px;
+  height: 22px;
+  flex-direction: column;
+}
+.ayuda {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1224px;
+  top: 41px;
+  width: 66px;
+  height: 22px;
+  flex-direction: column;
+}
+.rectangle41 {
+  position: absolute;
+  left: 1325px;
+  top: 42px;
+  width: 138px;
+  height: 21px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.manuelPerez {
+  color: #000;
+  font-size: 10px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1360px;
+  top: 47px;
+  width: 74px;
+  height: 12px;
+  flex-direction: column;
+}
+.polygon4 {
+  position: absolute;
+  left: 1441px;
+  top: 52px;
+  width: 13px;
+  height: 6px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sillaDeRuedas {
+  position: absolute;
+  left: 1477.6324px;
+  top: 34px;
+  width: 30.3675px;
+  height: 30px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bienestarEstudiantil {
+  color: #000;
+  font-size: 20px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 693px;
+  top: 922px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2015UTNTodosLosDerechosReserva {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 624px;
+  top: 947px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.demo-inline-calendar-card {
+    width: 300px;
+  }
+.Info{
+    width: 660px;
+    height: 90px;
+    flex-direction: column;
+    margin: 0px 289px 0px 0px;
+}
+.Header_Button{
+    left: 40px;
+    top: 40vh;
+    height: 7vh;
+    width: 568px;
+  }
+.ViewProfile{
+    margin: 32px 0px 0px 1300px;
+}

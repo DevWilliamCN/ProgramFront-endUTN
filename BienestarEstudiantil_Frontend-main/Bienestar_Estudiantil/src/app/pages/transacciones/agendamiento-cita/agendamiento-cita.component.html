@@ -1,0 +1,56 @@
+<div class="header">
+  <mat-form-field>
+    <mat-label>Seleccione una Fecha</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+<div class="title">Asigne una Hora de Cita</div>
+<div class="timeInput">
+  <mat-form-field class="time">
+    <mat-label>Hora de Cita</mat-label>
+    <input matInput placeholder="00:00" >
+  </mat-form-field>
+</div>
+<div class="line2"></div>
+<div class="frame12">
+</div>
+<div class="informacionRelevante">Información relevante
+<div class="Info">  <mat-form-field class="example-full-width">
+  <mat-label>Identificación del estudiante</mat-label>
+  <input matInput placeholder="0-0000-0000">
+</mat-form-field>
+<mat-form-field class="example-full-width">
+  <mat-label>Nombre Completo del Estudiante</mat-label>
+  <input matInput placeholder="Nombre" >
+</mat-form-field>
+<mat-form-field class="example-full-width">
+  <mat-label>Identificacion del Profesional</mat-label>
+  <input matInput placeholder="0-0000-0000" >
+</mat-form-field>
+<mat-form-field class="example-full-width">
+  <mat-label>Identificacion de Solicitud</mat-label>
+  <input matInput placeholder="000000000">
+</mat-form-field>
+
+<!-- agendamiento-cita.component.html -->
+<button mat-button (click)="openDialog()">Asignar lugar de cita</button>
+
+</div>
+<button mat-raised-button color="primary" class="Header_Button" routerLink="/consultas/visualizacion_Rapida">Asignar Cita</button>
+</div>
+<div class="line6"></div>
+<div class="line7"></div>
+<div class="line8"></div>
+<div class="bitacoraDeCurso">Bitácora de Curso</div>
+<div class="rectangle60"></div>
+<div class="indice3"> <img src="../assets/Imagenes/LOGOUTN.png" alt=""></div>
+<div class="agendamientoDeCitas">Agendamiento de citas</div>
+<div class="rectangle50"></div>
+<div class="recursos">Recursos</div>
+<div class="ayuda">Ayuda</div>
+<button mat-raised-button class="ViewProfile" routerLink="/seguridad/login">Manuel Perez</button>
+<div class="bienestarEstudiantil">Bienestar Estudiantil</div>
+<div class="_2015UTNTodosLosDerechosReserva">© 2015 UTN Todos los Derechos Reservados</div>

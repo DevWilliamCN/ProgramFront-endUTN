@@ -1,0 +1,42 @@
+<div class="desktop1">
+  <button mat-raised-button class="GoBack" routerLink="/"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>Regresar</button>
+   
+  
+  <div class="frame1">
+      <div class="General_Div">
+        <div class="user_container">
+          <form class="User">
+            <mat-form-field class="example-full-width">
+              <mat-label>Usuario</mat-label>
+              <input matInput #message maxlength="256" >
+              <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+            </mat-form-field>
+          </form>
+        </div>
+        <div class="contra">
+          <form class="password">
+            <mat-form-field class="example-full-width">
+              <mat-label>Contraseña</mat-label>
+              <input matInput #message maxlength="256" >
+              <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+            </mat-form-field>
+          </form>        
+        </div>
+        <div class="blue"></div>
+        <div class="orange">
+        </div>  
+      </div>
+      
+      <button routerLink="/recuperarContrasenha" style="width: 40%px; font-size: 20px;" class="OlvidoSuContrasena" mat-button color="primary">¿Olvidó su contraseña?</button>
+      <div class="rectangle8">
+        <button mat-raised-button color="primary" class="Header_Button" routerLink="/areas">Ingresar</button></div>
+    </div>
+    <div class="frame"></div>
+    <div class="image1"> <img src="../assets/Imagenes/LogoBlancoUtn.png" alt=""></div>
+    <div class="image6"></div>
+    <div class="bienvenido">Bienvenido</div>
+    <div class="_20232023DGTIVerUniversidadTecn">
+      <div class="textBlock">2023-2023 DGTI.Ver.0.0 Universidad Técnica Nacional</div>
+      <div class="textBlock2">Términos de uso y políticas de privacidad.</div>
+    </div>
+</div>

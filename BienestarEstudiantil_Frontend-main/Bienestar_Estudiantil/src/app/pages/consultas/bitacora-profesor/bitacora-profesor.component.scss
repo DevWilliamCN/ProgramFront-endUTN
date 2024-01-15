@@ -1,0 +1,459 @@
+host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 930px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle49 {
+  position: absolute;
+  left: 129px;
+  top: 257px;
+  width: 1272px;
+  height: 467px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle35 {
+  position: absolute;
+  left: -6px;
+  top: 830px;
+  width: 1534px;
+  height: 100px;
+  background-color: #d9d9d9;
+}
+.bitacoraDeCurso {
+  color: #fff;
+  font-size: 30px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 671px;
+  top: 43px;
+  width: 274px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle34 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 96px;
+  background-color: #1b3069;
+}
+.rectangle48 {
+  position: absolute;
+  left: 0;
+  top: 117px;
+  width: 1528px;
+  height: 60px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #fff;
+}
+.iTI524BasesDeDatosAvanzada {
+  color: #1b3069;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 580px;
+  top: 218px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.bitacoraProfesor {
+  color: #1b3069;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 650px;
+  top: 128px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle28 {
+  position: absolute;
+  left: 128px;
+  top: 257px;
+  width: 1273px;
+  height: 66px;
+  background-color: #454e6969;
+}
+.estudiante {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 281px;
+  width: 100px;
+  height: 24px;
+  flex-direction: column;
+}
+.rectangle29 {
+  position: absolute;
+  left: 258px;
+  top: 276px;
+  width: 165px;
+  height: 29px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle47 {
+  position: absolute;
+  left: 1255px;
+  top: 284px;
+  width: 120px;
+  height: 23px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carlosUgaldeMartinez {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 268px;
+  top: 282px;
+  width: 166px;
+  height: 24px;
+  flex-direction: column;
+}
+._768OIu3 {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1277px;
+  top: 287px;
+  width: 61px;
+  height: 24px;
+  flex-direction: column;
+}
+.rectangle31 {
+  position: absolute;
+  left: 147px;
+  top: 327px;
+  width: 1251px;
+  height: 388px;
+  background-color: #fff;
+}
+.rectangle32 {
+  position: absolute;
+  left: 683px;
+  top: 753px;
+  width: 164px;
+  height: 46px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.guardarYSalir {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 707px;
+  top: 766px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.carlitosSeEncuentraUnPocoPerdi {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 376px;
+  width: 449px;
+  height: 23px;
+  flex-direction: column;
+}
+.IconArrowDown1 {
+  position: absolute;
+  left: 1353px;
+  top: 292px;
+  width: 14px;
+  height: 6.9333px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+._2023716 {
+  color: #000;
+  font-size: 22px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 344px;
+  width: 433px;
+  height: 43px;
+  flex-direction: column;
+}
+.carlitosSeEncuentraUnPocoPerdi2 {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 460px;
+  width: 449px;
+  height: 23px;
+  flex-direction: column;
+}
+._20237162 {
+  color: #000;
+  font-size: 22px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 428px;
+  width: 433px;
+  height: 43px;
+  flex-direction: column;
+}
+.carlitosSeEncuentraUnPocoPerdi3 {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 545px;
+  width: 449px;
+  height: 23px;
+  flex-direction: column;
+}
+._20237163 {
+  color: #000;
+  font-size: 22px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 170px;
+  top: 514px;
+  width: 433px;
+  height: 42px;
+  flex-direction: column;
+}
+.codigoBitacora {
+  color: #000;
+  font-size: 13px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1104px;
+  top: 287px;
+  width: 180px;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.recursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1105px;
+  top: 37px;
+  width: 86px;
+  height: 22px;
+  flex-direction: column;
+}
+.ayuda {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1227px;
+  top: 37px;
+  width: 66px;
+  height: 22px;
+  flex-direction: column;
+}
+.rectangle41 {
+  position: absolute;
+  left: 1328px;
+  top: 38px;
+  width: 138px;
+  height: 21px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.manuelPerez {
+  color: #000;
+  font-size: 10px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1363px;
+  top: 43px;
+  width: 74px;
+  height: 12px;
+  flex-direction: column;
+}
+.polygon4 {
+  position: absolute;
+  left: 1444px;
+  top: 48px;
+  width: 13px;
+  height: 6px;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sillaDeRuedas {
+  position: absolute;
+  left: 1480.6324px;
+  top: 30px;
+  width: 30.3675px;
+  height: 30px;
+  overflow: visible;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.marcSchmidtProfesorDeMatematic {
+  position: absolute;
+  left: 1335px;
+  top: 40px;
+  width: 24px;
+  height: 17px;
+  background-image: url('/assets/marcSchmidtProfesorDeMatematic.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indice1 {
+  position: absolute;
+  left: 27px;
+  top: 13px;
+  width: 82px;
+  height: 64px;
+  background-image: url('/assets/indice1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image21 {
+  position: absolute;
+  left: 1349px;
+  top: 677px;
+  width: 49px;
+  height: 42px;
+  background-image: url('/assets/image21.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bienestarEstudiantil {
+  color: #000;
+  font-size: 20px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 674px;
+  top: 858px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2015UTNTodosLosDerechosReserva {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 595px;
+  top: 887px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

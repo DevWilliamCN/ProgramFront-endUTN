@@ -1,0 +1,25 @@
+{
+  "name": "loadimages",
+  "version": "1.0.3",
+  "description": "Load and storage images into MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=@babel/preset-env",
+    "dev": "nodemon --exec npm run babel-node src/index.js",
+    "debug": "nodemon --exec npm run babel-node --inspect src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}

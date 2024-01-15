@@ -1,0 +1,75 @@
+<div class="rectangle49"></div>
+<div class="rectangle72"></div>
+<div class="rectangle64"></div>
+<div class="rectangle65">
+  <!-- Esto mostrará una lista de solicitudes -->
+  <div *ngFor="let solicitud of solicitudes" class="solicitud-item">
+    <!-- Mostrando la ID del estudiante y el asunto -->
+    <div (click)="openPopup(solicitud)">
+      {{solicitud.estudiante.Identificacion}} - {{solicitud.Asunto}}
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="bienestarEstudiantil">Bienestar Estudiantil</div>
+<div class="rectangle62"></div>
+<div class="indice4"><img src="../assets/Imagenes/LOGOUTN.png" alt=""></div>
+<div class="recursos">Recursos</div>
+<div class="ayuda">Ayuda</div>
+<div class="rectangle126">
+  <button routerLink="/areas" style="color: black; width: 170px; height: 50px; background-color: white;" class="Header_Button" mat-button color="primary">Manuel Perez</button>
+</div>
+
+<div class="rectangle77"></div>
+<div class="visualizacionRapida">Visualización Rápida</div>
+<div class="solicitudesPresentes">Solicitudes presentes</div>
+<div class="solicitudesFuturas">Solicitudes futuras</div>
+<div class="pendientes">Pendientes</div>
+<div class="rectangle29"><img src="assets/rectangle-29-icon.svg" alt="" class="icon4" /></div>
+<div class="rectangle68"><img src="../assets/Imagenes/Person3.png" class="Person" /></div>
+<div class="rectangle69"><img src="../assets/Imagenes/Person4.png" class="Person" /></div>
+<div class="rectangle74"><div  alt="" class="icon8" ></div></div>
+<div class="rectangle73"><div class="icon10"><img src="../assets/Imagenes/Person5.png" class="Person" routerLink="/transacciones/AtencionCita"/></div></div>
+<div class="rectangle67"><img src="../assets/Imagenes/Person1.png" class="Person"class="" /></div>
+<div class="rectangle66"><img src="../assets/Imagenes/Person2.png" routerLink="/transacciones/agendamiento_Cita" class="Person"class="" /></div>
+<div class="andresHernandezVargas625892569">
+  <div class="textBlock">Andrés Hernández Vargas</div>
+  <div class="textBlock2">6-2589-2569</div>
+</div>
+<div class="eduardoMirandaQuiros625985869">
+  <div class="textBlock3">Eduardo Miranda Quirós</div>
+  <div class="textBlock4">6-2598-5869</div>
+</div>
+<div class="karenAguirreZuniga758966982">
+  <div class="textBlock5">Karen Aguirre Zúñiga</div>
+  <div class="textBlock6">7-5896-6982</div>
+</div>
+
+<div class="margaritaQuintanillaValle65892">
+  <div class="textBlock9">Margarita Quintanilla Valle</div>
+  <div class="textBlock10">6-5892-6472</div>
+</div>
+<div class="carlosGonzalezAlvarado19856587">
+  <div class="textBlock11">Carlos González Alvarado</div>
+  <div class="textBlock12">1-9856-5874</div>
+</div>
+<div class="rectangle28"></div>
+<div class="line9"></div>
+<div class="line10"></div>
+<div class="solicitudesPresentes2">Solicitudes presentes</div>
+<div class="citasPresentes">Citas Presentes</div>
+<div class="solicitudesPendientes">Solicitudes pendientes</div>
+<div class="sillaDeRuedas"><img src="assets/silla-de-ruedas-icon.svg" alt="" class="icon13" /></div>
+<div class="rectangle144">
+    <mat-form-field>
+    <mat-label>Elija una Opción</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let codes of codes" [value]="codes.value">
+        {{codes.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field></div>
+<div class="_2015UTNTodosLosDerechosReserva">© 2015 UTN Todos los Derechos Reservados</div>

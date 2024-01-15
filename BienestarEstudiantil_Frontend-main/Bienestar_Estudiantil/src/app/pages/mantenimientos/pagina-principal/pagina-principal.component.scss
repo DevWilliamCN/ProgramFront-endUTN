@@ -1,0 +1,634 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 929px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle136 {
+  position: absolute;
+  left: 11px;
+  top: 475px;
+  width: 468px;
+  height: 80px;
+  outline: solid 1px #89c1e0;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #fff, #fff;
+}
+.rectangle150 {
+  position: absolute;
+  left: 525px;
+  top: 474px;
+  width: 468px;
+  height: 80px;
+  outline: solid 1px #89c1e0;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #fff, #fff;
+}
+.rectangle152 {
+  position: absolute;
+  left: 1023px;
+  top: 479px;
+  width: 468px;
+  height: 80px;
+  outline: solid 1px #89c1e0;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #fff, #fff;
+}
+.rectangle123 {
+  position: absolute;
+  left: 0;
+  top: 88px;
+  width: 1528px;
+  height: 134px;
+  background-color: #1b3069;
+}
+.rectangle124 {
+  position: absolute;
+  left: 0;
+  top: 55px;
+  width: 1528px;
+  height: 33px;
+  background-color: #89c1e0;
+}
+.rectangle156 {
+  position: absolute;
+  left: -44px;
+  top: 318px;
+  width: 1577px;
+  height: 52px;
+  background-color: #89c1e0;
+}
+.rectangle125 {
+  position: absolute;
+  left: 0;
+  top: 795px;
+  width: 1528px;
+  height: 134px;
+  background-color: #d9d9d9;
+}
+
+.indice8 {
+  position: absolute;
+  left: 27px;
+  top: 96px;
+  width: 149.8958px;
+  height: 113.5078px;
+  background-image: url('/assets/indice8.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.estudiantes {
+  color: #fff;
+  font-size: 26px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 900px;
+  top: 142px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.profesionales {
+  color: #fff;
+  font-size: 26px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1086px;
+  top: 142px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.profesores {
+  color: #fff;
+  font-size: 26px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1295px;
+  top: 142px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.group {
+  position: absolute;
+  left: 1458px;
+  top: 131px;
+  width: 41px;
+  height: 47px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group6 {
+  position: absolute;
+  left: 1472px;
+  top: 0;
+  width: 56px;
+  height: 55px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle9 {
+  transform-origin: top left;
+  position: absolute;
+  left: 1186px;
+  top: 45.7087px;
+  width: 280px;
+  height: 34.7087px;
+  background-color: #f7f7f7;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.image5 {
+  position: absolute;
+  left: 1191px;
+  top: 13.7402px;
+  width: 130px;
+  height: 113.2598px;
+  background-image: url('/assets/image5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.polygon1 {
+  position: absolute;
+  left: 1432px;
+  top: 20.1336px;
+  width: 22.0715px;
+  height: 15.5278px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ellipse16 {
+  position: absolute;
+  left: 902px;
+  top: 807px;
+  width: 81px;
+  height: 77px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse17 {
+  position: absolute;
+  left: 669px;
+  top: 807px;
+  width: 81px;
+  height: 77px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iconoDeCampusVirtual {
+  position: absolute;
+  left: 684.0549px;
+  top: 830px;
+  width: 50.3619px;
+  height: 43.1375px;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  left: 398px;
+  top: 851px;
+  width: 58px;
+  height: 34px;
+  overflow: hidden;
+}
+.frame2 {
+  position: absolute;
+  left: 832px;
+  top: 673px;
+  width: 38px;
+  height: 33px;
+  overflow: hidden;
+}
+.frame3 {
+  position: absolute;
+  left: 923.4012px;
+  top: 831.915px;
+  width: 44px;
+  height: 38px;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.biblioteca {
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 545px;
+  top: 890px;
+  width: 87px;
+  height: 20px;
+  flex-direction: column;
+}
+.campusVirtual {
+  position: absolute;
+  left: 660px;
+  top: 888px;
+  width: 69px;
+  height: 40px;
+  flex-direction: row;
+}
+.textBlock {
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.avatar {
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 815px;
+  top: 890px;
+  width: 56px;
+  height: 19px;
+  flex-direction: column;
+}
+.diccionarioInstitucional {
+  position: absolute;
+  left: 910px;
+  top: 889px;
+  width: 102px;
+  height: 40px;
+  flex-direction: column;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-bottom: 8px;
+  color: #1b3069;
+}
+.Header_Button{
+  left: 1300px;
+  top: 3px;
+  height: 7vh;
+  width: 248px;
+}
+.footer_Imgs{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.example-disabled {
+  display: inline-block;
+}
+.textBlock3 {
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #1b3069;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.ellipse172 {
+  position: absolute;
+  left: 791px;
+  top: 807px;
+  width: 81px;
+  height: 77px;
+  overflow: visible;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group2 {
+  position: absolute;
+  left: 814px;
+  top: 830px;
+  width: 34.0093px;
+  height: 30.8496px;
+  overflow: visible;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse18 {
+  position: absolute;
+  left: 551px;
+  top: 830px;
+  width: 81px;
+  height: 77px;
+  overflow: visible;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group3 {
+  position: absolute;
+  left: 565px;
+  top: 832px;
+  width: 52px;
+  height: 29px;
+  overflow: visible;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.atencionPsicologica {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 137px;
+  top: 328px;
+  width: 226px;
+  height: 33px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.atencionPsicopedagogica {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 606px;
+  top: 329px;
+  width: 296px;
+  height: 38px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.orientacionEstudiantil {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1137px;
+  top: 332px;
+  width: 241px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image32 {
+  position: absolute;
+  left: 35px;
+  top: 414px;
+  width: 420px;
+  height: 219px;
+  border-radius: 20px;
+  background-image: url('/assets/image32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image30 {
+  position: absolute;
+  left: 545px;
+  top: 420px;
+  width: 420px;
+  height: 219px;
+  border-radius: 20px;
+  background-image: url('/assets/image30.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle144 {
+  position: absolute;
+  left: 319px;
+  top: 601px;
+  width: 133px;
+  height: 23px;
+  overflow: visible;
+  background: #1b3069;
+}
+.icon12 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.masInformacionAqui {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 305px;
+  top: 600px;
+  width: 111px;
+  height: 17px;
+  flex-direction: column;
+}
+.rectangle151 {
+  position: absolute;
+  left: 827px;
+  top: 611px;
+  width: 133px;
+  height: 23px;
+  overflow: visible;
+  background: #1b3069;
+}
+.icon13 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rectangle153 {
+  position: absolute;
+  left: 827px;
+  top: 611px;
+  width: 133px;
+  height: 23px;
+  overflow: visible;
+  background: #1b3069;
+}
+.icon14 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.masInformacionAqui3 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 815px;
+  top: 610px;
+  width: 111px;
+  height: 17px;
+  flex-direction: column;
+}
+.rectangle148 {
+  position: absolute;
+  left: 1048px;
+  top: 420px;
+  width: 420px;
+  height: 219px;
+  outline: solid 1px #1b3069;
+  outline-offset: -1px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.image31 {
+  position: absolute;
+  left: 1050px;
+  top: 422px;
+  width: 414px;
+  height: 215px;
+  border-radius: 20px;
+  background-image: url('/assets/image31.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle154 {
+  position: absolute;
+  left: 1328px;
+  top: 609px;
+  width: 133px;
+  height: 23px;
+  overflow: visible;
+}
+.icon15 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rectangle155 {
+  position: absolute;
+  left: 1328px;
+  top: 609px;
+  width: 133px;
+  height: 23px;
+  overflow: visible;
+  background: #1b3069;
+  
+}
+.icon16 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.masInformacionAqui5 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1320px;
+  top: 610px;
+  width: 111px;
+  height: 17px;
+  flex-direction: column;
+}
+button{
+  background-color: #1b3069;
+  color:#f7f7f7;
+}

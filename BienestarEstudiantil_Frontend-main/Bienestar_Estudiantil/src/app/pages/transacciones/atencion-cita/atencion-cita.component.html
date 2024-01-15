@@ -1,0 +1,174 @@
+<div class="rectangle90">
+  <img src="assets/rectangle-90-icon.svg" alt="" class="icon" />
+</div>
+<div class="rectangle144">
+  <mat-form-field>
+    <mat-label>Filtrar Cursos</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let codes of codes" [value]="codes.value">
+        {{ codes.viewValue }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="rectangle125"></div>
+<div class="fundamentosDeProgramacion">Fundamentos de Programación</div>
+<div class="carlitosSeEncuentraUnPocoPerdi">
+  Carlitos se encuentra un poco Perdido en la clase de hoy.
+</div>
+<div class="_2023716">2023/07/16</div>
+<div class="rogerRojas">Roger Rojas</div>
+<div class="bitacoraProfesor">Bitácora Profesor:</div>
+<div class="line11">
+  <img src="assets/line-11-icon.svg" alt="" class="icon4" />
+</div>
+
+<div class="rectangle9">
+  <button
+    mat-raised-button
+    routerLink="/consultas/visualizacion_Rapida"
+    color="primary"
+    class="Header_Button"
+    style="display: flex; justify-content: center; align-items: center"
+  >
+    <p style="font-size: 20px; margin-top: 15px">Agregar cita</p>
+  </button>
+</div>
+<div class="header">
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker" />
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<div class="_658926472MargaritaQuintanillaV">
+  <div class="textBlock"><p></p></div>
+  <div class="textBlock2">6-5892-6472</div>
+  <div class="textBlock3">Margarita Quintanilla Valle</div>
+</div>
+<div class="agendarCita">
+  <div class="textBlock5"><p></p></div>
+</div>
+<div class="rectangle124">
+  <button
+    mat-raised-button
+    routerLink="/consultas/visualizacion_Rapida"
+    color="primary"
+    class="Header_Button"
+  >
+    <p style="font-size: 20px; margin-top: 15px">Terminar proceso</p>
+  </button>
+</div>
+<div class="correoEstudiantil">Correo Estudiantil</div>
+<div class="carreraEstudiantil">Carrera estudiantil</div>
+<div class="fechaDeNacimiento">Fecha de nacimiento</div>
+<div class="numeroTelefonico">Número Telefónico</div>
+<div class="direccionExacta">Dirección exacta</div>
+<div class="quinvaEstUtnAcCr">Quinva@est.utn.ac.cr</div>
+<div class="_6258699836589874">6258-69-98 / 3658-98-74</div>
+<div class="_20031010">2003-10-10</div>
+<div class="_55MetrosOeste120MetrosNorteDeS">
+  55 metros oeste, 120 metros norte de super mercado megasuper de Esparza
+</div>
+<div class="ingenieriaEnTecnologiasDeLaInf">
+  Ingeniería en Tecnologías de la información
+</div>
+<div class="rectangle84"></div>
+<div class="rectangle86">
+  <div style="width: 700px" class="tabla-datos">
+    <table mat-table [dataSource]="dataSource" class="">
+      <!-- comentarioId Column -->
+      <ng-container matColumnDef="comentarioId">
+        <th style="text-align: center" mat-header-cell *matHeaderCellDef></th>
+        <td style="text-align: center" mat-cell *matCellDef="let comentario">
+          {{ comentario.comentarioId }}
+        </td>
+      </ng-container>
+
+      <!-- comentario Column -->
+      <ng-container matColumnDef="comentario">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let comentario">
+          {{ comentario.comentario }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="acciones">
+        <th style="text-align: center" mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let comentario">
+          <div style="display: flex; justify-content: center">
+            <button
+              style="margin: 10px auto; width: 100%; height: 40px"
+              mat-flat-button
+              color="warn"
+              (click)="eliminarComentario(comentario)"
+            >
+              Eliminar
+            </button>
+          </div>
+        </td>
+      </ng-container>
+
+      <tr
+        mat-header-row
+        *matHeaderRowDef="['comentarioId', 'comentario', 'acciones']"
+      ></tr>
+      <tr
+        mat-row
+        *matRowDef="
+          let comentario;
+          columns: ['comentarioId', 'comentario', 'acciones']
+        "
+      ></tr>
+    </table>
+  </div>
+
+  <div (click)="abrirDialog()" style="margin-top: 15%; margin-left: 2%">
+    <button mat-mini-fab color="primary">
+      <mat-icon>+</mat-icon>
+    </button>
+  </div>
+</div>
+<div class="rectangle83"></div>
+<div class="rectangle123"></div>
+<div class="bienestarEstudiantil">Bienestar Estudiantil</div>
+
+<div class="imagenPersona">
+  <div
+    style="width: 500%; height: 200px; margin-top: -12px; margin-left: 20px"
+    class="indice5"
+  >
+    <img src="../assets/Imagenes/Person5.png" alt="" />
+  </div>
+</div>
+
+<div class="version12023">Version 1-2023</div>
+<div class="rectangle78">
+  <button mat-flat-button routerLink="/seguridad/login" class="MatButton">
+    Manuel Perez
+  </button>
+</div>
+<div class="indice5"><img src="../assets/Imagenes/LOGOUTN.png" alt="" /></div>
+<div class="visualizacionEstudiante">Visualización estudiante</div>
+
+<button
+  style="color: aliceblue; width: 10%; margin-left: -40px"
+  class="recursos"
+  mat-button
+>
+  Recursos
+</button>
+<button
+  style="color: aliceblue; width: 10%; margin-left: -50px"
+  class="ayuda"
+  mat-button
+>
+  Ayuda
+</button>
+<div class="rectangle79"></div>
+<div class="image21"></div>
+<div class="comentarios">Comentarios</div>

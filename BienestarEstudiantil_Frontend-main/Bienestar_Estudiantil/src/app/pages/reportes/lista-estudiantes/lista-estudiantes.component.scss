@@ -1,0 +1,551 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 928px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle43 {
+  position: absolute;
+  left: -6px;
+  top: 250px;
+  width: 1540px;
+  height: 139px;
+  background-color: #d1d1d163;
+}
+.rectangle53 {
+  position: absolute;
+  left: -6px;
+  top: 527px;
+  width: 1540px;
+  height: 125px;
+  background-color: #d1d1d163;
+}
+.carlosGonzales {
+  color: #000;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 403px;
+  top: 286px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.goncarEstUtnAcCr {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 382px;
+  top: 315px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock {
+  display: block;
+}
+.rectangle31 {
+  position: absolute;
+  left: 1213px;
+  top: 286px;
+  width: 163px;
+  height: 61px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.andresHernandez {
+  color: #000;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 395px;
+  top: 426px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.carEstUtnAcCr {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 399px;
+  top: 453px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock2 {
+  display: block;
+}
+.rectangle33 {
+  position: absolute;
+  left: 1213px;
+  top: 428px;
+  width: 163px;
+  height: 61px;
+  outline: solid 1px #fff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #5a8094;
+}
+.karenAguirre {
+  color: #000;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 417px;
+  top: 565px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.eduardoMiranda {
+  color: #000;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 399px;
+  top: 682px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.guirrKaEstUtnAcCr {
+  position: absolute;
+  left: 385px;
+  top: 592px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+}
+.rectangle34 {
+  position: absolute;
+  left: 1213px;
+  top: 559px;
+  width: 163px;
+  height: 61px;
+  outline: solid 1px #fff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #5a8094;
+}
+.rectangle54 {
+  position: absolute;
+  left: 1213px;
+  top: 684px;
+  width: 163px;
+  height: 61px;
+  outline: solid 1px #fff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #5a8094;
+}
+.ingresar {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1259px;
+  top: 307px;
+  width: 95px;
+  height: 19px;
+  flex-direction: column;
+}
+.ingresar2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1260px;
+  top: 447px;
+  width: 95px;
+  height: 19px;
+  flex-direction: column;
+}
+.ingresar3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1259px;
+  top: 578px;
+  width: 95px;
+  height: 19px;
+  flex-direction: column;
+}
+.ingresar4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1259px;
+  top: 705px;
+  width: 95px;
+  height: 19px;
+  flex-direction: column;
+}
+.istockphoto871547412612x6121 {
+  position: absolute;
+  left: 201px;
+  top: 270px;
+  width: 111.6176px;
+  height: 99px;
+  border-radius: 25px;
+  background-image: url('/assets/istockphoto871547412612x6121.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bitacoraDeCurso {
+  color: #fff;
+  font-size: 30px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 673px;
+  top: 43px;
+  width: 274px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle55 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 96px;
+  background-color: #1b3069;
+}
+.cursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1008px;
+  top: 37px;
+  width: 64px;
+  height: 22px;
+  flex-direction: column;
+}
+.recursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1107px;
+  top: 37px;
+  width: 86px;
+  height: 22px;
+  flex-direction: column;
+}
+.ayuda {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1229px;
+  top: 37px;
+  width: 66px;
+  height: 22px;
+  flex-direction: column;
+}
+.rectangle51 {
+  position: absolute;
+  left: 1330px;
+  top: 38px;
+  width: 138px;
+  height: 21px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.manuelPerez {
+  color: #000;
+  font-size: 10px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1365px;
+  top: 43px;
+  width: 74px;
+  height: 12px;
+  flex-direction: column;
+}
+.polygon5 {
+  position: absolute;
+  left: 1446px;
+  top: 48px;
+  width: 13px;
+  height: 6px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.marcSchmidtProfesorDeMatematic {
+  position: absolute;
+  left: 1337px;
+  top: 40px;
+  width: 24px;
+  height: 17px;
+  background-image: url('/assets/marcSchmidtProfesorDeMatematic.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indice2 {
+  position: absolute;
+  left: 29px;
+  top: 13px;
+  width: 82px;
+  height: 64px;
+  background-image: url('/assets/indice2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle50 {
+  position: absolute;
+  left: 2px;
+  top: 833px;
+  width: 1528px;
+  height: 95px;
+  background-color: #d9d9d9;
+}
+.bienestarEstudiantil {
+  color: #000;
+  font-size: 20px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 669px;
+  top: 867px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle37 {
+  position: absolute;
+  left: 1518px;
+  top: 96px;
+  width: 12px;
+  height: 738px;
+  background-color: #fff;
+}
+.rectangle38 {
+  position: absolute;
+  left: 1521px;
+  top: 419px;
+  width: 5px;
+  height: 52px;
+  background-color: #d9d9d9;
+}
+.eduaMirEstUtnAcCr {
+  position: absolute;
+  left: 377px;
+  top: 709px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper2 {
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label3 {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label4 {
+  color: #3d66b5;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+}
+.image22 {
+  position: absolute;
+  left: 198px;
+  top: 666px;
+  width: 113.4067px;
+  height: 99px;
+  border-radius: 25px;
+  background-image: url('/assets/image22.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.personasEmocionalesWide1 {
+  position: absolute;
+  left: 198px;
+  top: 542px;
+  width: 114px;
+  height: 99px;
+  border-radius: 25px;
+  background-image: url('/assets/personasEmocionalesWide1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.istockphoto1250436971612x6121 {
+  position: absolute;
+  left: 198px;
+  top: 404px;
+  width: 114px;
+  height: 99px;
+  border-radius: 25px;
+  background-image: url('/assets/istockphoto1250436971612x6121.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle48 {
+  position: absolute;
+  left: 2px;
+  top: 124px;
+  width: 1528px;
+  height: 62px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #fff;
+}
+.visualizacionDeEstudiantes {
+  color: #1b3069;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 575px;
+  top: 140px;
+  width: 497px;
+  height: 49px;
+  flex-direction: column;
+}
+.sillaDeRuedas {
+  position: absolute;
+  left: 1488px;
+  top: 34px;
+  width: 30.3675px;
+  height: 30px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+._2015UTNTodosLosDerechosReserva {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 598px;
+  top: 892px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

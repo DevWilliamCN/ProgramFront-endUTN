@@ -1,0 +1,19 @@
+
+<div class="popupp" id="printableArea">
+<h1>Detalles de la solicitud</h1>
+<div>Asunto de solicitud: {{selectedSolicitud?.Asunto}}</div>
+<div>Estudiante ID: {{selectedSolicitud?.estudiante?.Identificacion}}</div>
+<div>Fecha y Hora: {{selectedSolicitud?.FechaHora}}</div>
+
+<!-- Datos del profesional -->
+<h2>Profesional</h2>
+<div>Identificación del Profesional: {{selectedSolicitud?.profesional?.Identificacion}}</div>
+
+<!-- Datos del estudiante -->
+<h2>Estudiante</h2>
+<div>ID Estudiante: {{selectedSolicitud?.estudiante?.EstudianteId}}</div>
+<div>Identificación del Estudiante: {{selectedSolicitud?.estudiante?.Identificacion}}</div>
+<div>Ayuda Familiar: {{selectedSolicitud?.estudiante?.AyudaFamiliar}}</div>
+<div>Estado de Trabajo: {{selectedSolicitud?.estudiante?.EstadoTrabajo ? 'Sí' : 'No'}}</div>
+<button (click)="downloadPDF()" style="margin: 20px;">Imprimir</button>
+</div>

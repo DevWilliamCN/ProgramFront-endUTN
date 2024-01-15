@@ -1,0 +1,381 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1528px;
+  height: 1527px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.rectangle102 {
+  position: absolute;
+  left: 0;
+  top: 1427px;
+  width: 1528px;
+  height: 100px;
+  background-color: #d9d9d9;
+}
+.bienestarEstudiantil {
+  color: #000;
+  font-size: 20px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 686px;
+  top: 1454px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2015UTNTodosLosDerechosReserva {
+  color: #000;
+  font-size: 16px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 615px;
+  top: 1479px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle96 {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 1528px;
+  height: 96px;
+  background-color: #1b3069;
+}
+.rectangle133 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1528px;
+  height: 98px;
+  background-color: #1b3069;
+}
+.rectangle100 {
+  position: absolute;
+  left: 100px;
+  top: 243px;
+  width: 1319px;
+  height: 1077px;
+  outline: solid 5px #1b3069;
+  outline-offset: -5px;
+  background-color: #fff;
+}
+.indice6 {
+  position: absolute;
+  left: 30px;
+  top: 13px;
+  width: 94px;
+  height: 73px;
+  background-image: url('/assets/indice6.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recursos {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1102px;
+  top: 43px;
+  width: 86px;
+  height: 22px;
+  flex-direction: column;
+}
+.ayuda {
+  color: #fff;
+  font-size: 18px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1224px;
+  top: 43px;
+  width: 66px;
+  height: 22px;
+  flex-direction: column;
+}
+.rectangle97 {
+  position: absolute;
+  left: 1325px;
+  top: 44px;
+  width: 138px;
+  height: 21px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.manuelPerez {
+  color: #000;
+  font-size: 10px;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1360px;
+  top: 49px;
+  width: 74px;
+  height: 12px;
+  flex-direction: column;
+}
+.polygon7 {
+  position: absolute;
+  left: 1441px;
+  top: 54px;
+  width: 13px;
+  height: 6px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.marcSchmidtProfesorDeMatematic {
+  position: absolute;
+  left: 1332px;
+  top: 46px;
+  width: 24px;
+  height: 17px;
+  background-image: url('/assets/marcSchmidtProfesorDeMatematic.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle98 {
+  position: absolute;
+  left: 0;
+  top: 137px;
+  width: 1528px;
+  height: 64px;
+  outline: solid 3px #89c1e0;
+  outline-offset: -3px;
+  background-color: #89c1e0;
+}
+.agregarEstudiante {
+  color: #1b3069;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 625px;
+  top: 149px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.sillaDeRuedas {
+  position: absolute;
+  left: 1481px;
+  top: 35px;
+  width: 30.3675px;
+  height: 30px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image23 {
+  transform-origin: top left;
+  position: absolute;
+  left: 686px;
+  top: 286.4893px;
+  width: 165.7769px;
+  height: 165.3515px;
+  background-image: url('/assets/image23.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(1, -0.009, 0.009, 1, 0, 0);
+}
+.polygon1 {
+  position: absolute;
+  left: 1337px;
+  top: 861.9995px;
+  width: 22.0715px;
+  height: 15.5278px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.polygon9 {
+  position: absolute;
+  left: 1337px;
+  top: 958.9995px;
+  width: 22.0715px;
+  height: 15.5278px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle101 {
+  position: absolute;
+  left: 620px;
+  top: 1128px;
+  width: 314px;
+  height: 84px;
+  overflow: visible;
+  background-color: #1b3069;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.guardar {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Century Gothic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 708px;
+  top: 1151px;
+  width: 145px;
+  height: 37px;
+  flex-direction: column;
+}
+.rectangle103 {
+  position: absolute;
+  left: 157px;
+  top: 742px;
+  width: 1222px;
+  height: 79px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle104 {
+  position: absolute;
+  left: 157px;
+  top: 742px;
+  width: 1222px;
+  height: 79px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle105 {
+  position: absolute;
+  left: 157px;
+  top: 742px;
+  width: 1222px;
+  height: 79px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle107 {
+  position: absolute;
+  left: 157px;
+  top: 742px;
+  width: 1222px;
+  height: 79px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.rectangle106 {
+  position: absolute;
+  left: 157px;
+  top: 1010px;
+  width: 1222px;
+  height: 78px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+}
+.polygon8 {
+  position: absolute;
+  left: 697px;
+  top: 950.9995px;
+  width: 22.0715px;
+  height: 15.5278px;
+  overflow: visible;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divinput {
+    position: relative;
+    left: 9%;
+    top: 30%;
+    width: 1250px; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fila {
+    display: flex; 
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.divcito {
+    width: 530px;
+    height: 80px;
+    margin-bottom: 10px;
+    
+    margin-right: 30px;
+}
+

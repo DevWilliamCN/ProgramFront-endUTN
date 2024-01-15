@@ -1,0 +1,124 @@
+<div class="rectangle102"></div>
+<div class="bienestarEstudiantil">Bienestar Estudiantil</div>
+<div class="_2015UTNTodosLosDerechosReserva">© 2015 UTN Todos los Derechos Reservados</div>
+<div class="rectangle96"></div>
+<div class="rectangle133"></div>
+<div class="rectangle100"></div>
+<div class="indice6"></div>
+<div class="recursos">Recursos</div>
+<div class="ayuda">Ayuda</div>
+<div class="rectangle97"><img src="../assets/Imagenes/rectangle-97-icon.svg" alt="" class="icon" /></div>
+<div class="manuelPerez">Manuel Perez</div>
+<div class="polygon7"><img src="../assets/Imagenes/polygon-7-icon.svg" alt="" class="icon2" /></div>
+<div class="marcSchmidtProfesorDeMatematic"></div>
+<div class="rectangle98"></div>
+<div class="agregarEstudiante">Agregar estudiante</div>
+<button><div class="sillaDeRuedas"><img src="../assets/Imagenes/silla-de-ruedas-icon.svg" alt="" class="icon3" /></div></button>
+<div><img src="../assets/Imagenes/image23.png" alt="agregar img" style="width: 150px; height: 150px; position: absolute; left: 690px; top: 250px;"></div>
+
+<div style="background-color: rgb(255, 255, 255);" class="divinput">
+    <div class="fila">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large;  margin-left: 80px;">
+                <input matInput placeholder="Identificación del estudiante" value="">
+            </mat-form-field>
+        </div>
+
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large;  margin-left: 80px;">
+                <input matInput placeholder="Primer apellido del estudiante" value="">
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large;  margin-left: 80px;">
+                <input matInput placeholder="Nombre del estudiante" value="">
+            </mat-form-field>
+        </div>
+
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large; margin-left: 80px;">
+                <input matInput placeholder="Segundo apellido del estudiante" value="">
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="fila" style="display: block;">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 1095px; font-size: large; margin-left: 80px;">
+                <textarea matInput placeholder="Dirección completa del estudiante"></textarea>
+              </mat-form-field>
+        </div>
+    </div>
+
+
+    <div class="fila">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large; margin-left: 80px;">
+                <mat-label>Fecha de nacimiento</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+              
+        </div>
+
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large; margin-left: 80px;">
+                <mat-label>Genero</mat-label>
+                <select matNativeControl required>
+                    <option value="Masculino">Genero</option>
+                  <option value="Masculino">Masculino</option>
+                  <option value="Femenino">Femenino</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </mat-form-field>
+        </div>
+    </div>
+
+
+    <div class="fila">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large; margin-left: 80px;">
+                <mat-label>Especialidad</mat-label>
+                <select matNativeControl required>
+                    <option value="Masculino">Especialidad</option>
+                  <option value="Masculino">No presenta</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </mat-form-field>
+        </div>
+
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 100%; font-size: large; margin-left: 80px;">
+                <mat-label>Año</mat-label>
+                <input matInput [value]="displayedYear" readonly placeholder="Elige un año">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker startView="multi-year" (yearSelected)="chosenYearHandler($event, picker)"></mat-datepicker>
+              </mat-form-field>
+              
+              
+              
+        </div>
+    </div>
+
+
+    <div class="fila" style="display: block;">
+        <div class="divcito">
+            <mat-form-field class="example-full-width" style="width: 1095px; font-size: large; margin-left: 80px;">
+                  <input matInput placeholder="Email">
+                </mat-form-field>
+              
+        </div>
+    </div>
+</div>
+
+<!-- <cl-input-fields-property-1-varian></cl-input-fields-property-1-varian>
+<cl-input-fields-property-1-varian></cl-input-fields-property-1-varian> -->
+<button mat-stroked-button class="rectangle101" style="color: aliceblue; font-size: x-large;">Guardar </button>
+
+
+<!-- <cl-input-fields-property-1-varian></cl-input-fields-property-1-varian>
+<cl-input-fields-property-1-varian></cl-input-fields-property-1-varian> -->
